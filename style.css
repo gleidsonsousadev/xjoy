@@ -1,0 +1,954 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---------- cabeçalho ---------- */
+
+.cabecalho {
+    position: relative;
+    padding: 27px 0;
+    margin: auto;
+    width: 1280px;
+    max-width: 90vw;
+    height: 100px;
+}
+
+.logo {
+    border-right: 1px solid rgb(197, 197, 197);
+    display: table;
+    float: left;
+    padding-right: 27px;
+    margin-right: 27px;
+}
+
+.cabecalho a {
+    text-decoration: none;
+}
+
+.cabecalho p {
+    display: table;
+    float: left;
+    margin-top: 17px ;
+}
+.cabecalho .botao {
+    position:absolute;
+    right: 0;
+}
+
+.botao {
+    padding: 13px 28px;
+    border-radius: 22px;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-weight: 700;
+    color: #3DAE2B;
+    background: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a.botao.botao-verde {
+    color: #fff;
+    background: linear-gradient(80.36deg, #3DAE2B -2.35%, #65B2E8 96.96%);
+}
+
+/* ---------- fim cabeçalho ---------- */
+
+/* ---------- bloco 01 ---------- */
+
+.container-bloco01 {
+    width: 100%;
+    height: 660px;
+    background: linear-gradient(80.36deg, #3DAE2B -2.35%, #65B2E8 96.96%);
+}
+
+.bloco01 {
+    position: relative;
+    height: 660px;
+    width: 1280px;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-top: 177px;
+}
+
+.bloco01-texto {
+    width: 525px;
+}
+
+.bloco01 h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 100%;
+    padding-bottom: 25px ;
+}
+
+.bloco01 p {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 29px;
+    padding-bottom: 33px;
+}
+
+.bloco01 span {
+    text-transform: uppercase;
+}
+
+.bloco01 img {
+    position: absolute;
+    right: 30px;
+    bottom: -70px;
+}
+
+.bloco01 .texto-imagem {
+    position: absolute;
+    width: 290px;
+    font-size: 1rem;
+    line-height: 20px;
+    right: 0;
+    top: 180px;
+}
+
+
+/* ---------- fim bloco 01 ---------- */
+
+/* ---------- bloco 02 ---------- */
+
+.container-bloco02 {
+    width: 100%;
+    height: 660px;
+    background: #F5F5F5;
+}
+
+.bloco02 {
+    position: relative;
+    height: 660px;
+    width: 1280px;
+    max-width: 90vw;
+    margin: 0 auto; 
+}
+
+.bloco02 img {
+    position: absolute;
+    top: 121px;
+}
+
+.bloco02 h2 {
+    position: absolute;
+    right: 0;
+    top: 244px;
+    width: 525px;
+    max-width: 90vw;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 120%;
+}
+
+.bloco02 p {
+    position: absolute;
+    right: 0;
+    bottom: 190px;
+    width: 520px;
+    max-width: 90vw;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+/* ---------- fim bloco 02 ---------- */
+
+/* ---------- bloco 03 ---------- */
+
+.container-bloco03 {
+    position: relative;
+    width: 100%;
+    height: 726px;
+    background: #F5F5F5;
+}
+
+.bloco03 {
+    position: relative;
+    height: 726px;
+    width: 1380px;
+    max-width: 90vw;
+    margin: 0 auto; 
+}
+
+.bloco03 img {
+    position:absolute;
+    bottom: 0;
+    left: -60px;
+}
+
+.bloco03 h2 {
+    position: absolute;
+    left: 370px;
+    top: 108px;
+    width: 647px;
+    max-width: 90vw;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 120%;
+}
+
+.bloco03 .subtitulo {
+    position:absolute;
+    left: 370px;
+    top: 220px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 29px;
+    background: linear-gradient(80.36deg, #3DAE2B -2.35%, #65B2E8 96.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.box-list {
+    position: absolute;
+    display: flex;
+    left: 370px;
+    top: 300px;
+}
+
+.box {
+    position: relative;
+    margin-right: 16px;
+    background-color: #fff;
+    width: 300px;
+    height: 308px;
+    list-style: none;
+    border-radius: 20px 20px 60px 20px;
+}
+
+.box div {
+    position: absolute;
+    top: 60px;
+    background: linear-gradient(49.09deg, #3DAE2B 19.34%, #65B2E8 73.21%);
+    border-radius: 5px;
+    width: 8px;
+    height: 81px;
+
+}
+
+.texto-box {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    width: 310px;
+    padding: 57px 36px 0;
+}
+
+/* ---------- fim bloco 03 ---------- */
+
+/* ---------- bloco 04 ---------- */
+
+.container-bloco04 {
+    position: relative;
+    width: 100%;
+    height: 645px;
+    background: #ffffff;
+}
+
+.bloco04 {
+    position: relative;
+    height: 460px;
+    width: 1278px;
+    max-width: 90vw;
+    margin: 98px auto 0; 
+}
+
+.bloco04 .subtitulo {
+    position:absolute;
+    left: 0;
+    top: 15px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    background: linear-gradient(80.36deg, #3DAE2B -2.35%, #65B2E8 96.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bloco04 h2 {
+    position: absolute;
+    top: 65px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    width: 525px;
+}
+
+.bloco04 p {
+    position: absolute;
+    width: 525px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    bottom: 25px;
+}
+
+.bloco04 p span {
+    text-transform: uppercase;
+}
+
+.bloco04 img {
+    position: absolute;
+    right: 0;
+}
+
+/* ---------- fim bloco 04 ---------- */
+
+/* ---------- bloco 05 ---------- */
+
+.container-bloco05 {
+    position: relative;
+    width: 100%;
+    height: 263px;
+    background: linear-gradient(80.36deg, #3DAE2B -2.35%, #65B2E8 96.96%);
+}
+
+.container-bloco05 .botao {
+    position: absolute;
+    display: table;
+    top: 66px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container-bloco05 p {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+    width: 645px;
+    max-width: 90vw;
+}
+
+/* ---------- fim bloco 05 ---------- */
+
+/* ---------- bloco 06 ---------- */
+
+.container-bloco06 {
+    width: 100%;
+    height: 710px;
+    background: #F5F5F5;
+}
+
+.bloco06 {
+    position: relative;
+    top: 90px;
+    height: 513px;
+    width: 1278px;
+    max-width: 90vw;
+    margin: auto; 
+}
+
+.container-bloco06 .texto-esquerda {
+    position: absolute;
+    left:0;
+    top: 90px;
+    max-width: 417px;
+    height: 335px;
+}
+
+.container-bloco06 .texto-direita {
+    position: absolute;
+    right:0;
+    top: 90px;
+    max-width: 416px;
+    height: 335px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.texto-direita .botao {
+    position: absolute;
+    bottom: 0;
+}
+
+.container-bloco06 .subtitulo {
+    padding-bottom: 17px;
+    left: 0;
+    top: 15px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    background: linear-gradient(80.36deg, #3DAE2B -2.35%, #65B2E8 96.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.container-bloco06 h2 {
+    padding-bottom: 24px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+}
+
+.texto-esquerda p {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.imagem-bloco06 {
+    background-image: url(imagens/imagem05.png);
+    height: 513px;
+    width: 1278px;
+    max-width: 90vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ---------- media query ---------- */
+
+@media screen and (max-width: 1400px) {
+
+    /* ---------- bloco 01 ---------- */
+
+    .container-bloco01 {
+        width: 100%;
+        height: 960px;
+    }
+
+    .bloco01 {
+        height: 960px;
+        width: 700px;
+        padding-top: 50px;
+    }
+
+    .bloco01 img {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: -70px;
+    }
+    
+    .bloco01 .texto-imagem {
+        right: 0;
+        top: 470px;
+    }
+
+    .bloco01-texto {
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        width: 525px;
+    }
+
+    /* ---------- fim bloco 01 ---------- */
+
+    /* ---------- bloco 02 ---------- */
+
+    .container-bloco02 {
+        width: 100%;
+        height: 860px;
+        background: #F5F5F5;
+    }
+
+    .bloco02 {
+        height: 860px;
+    }
+
+    .bloco02 img {
+        top: 415px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .bloco02 h2 {
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        top: 144px;
+    }
+
+    .bloco02 p {
+        text-align: center;
+        left: 50%;
+        top: 274px;
+        transform: translate(-50%);
+    }
+
+    /* ---------- fim bloco 02 ---------- */
+    
+    /* ---------- bloco 03 ---------- */
+
+    .container-bloco03 {
+        position: relative;
+        width: 100%;
+        height: 1226px;
+        background: #F5F5F5;
+    }
+
+    .bloco03 {
+        position: relative;
+        height: 726px;
+        width: 1380px;
+        max-width: 90vw;
+        margin: 0 auto; 
+    }
+
+    .bloco03 img {
+        position:absolute;
+        bottom: -500px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .bloco03 h2 {
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        max-width: 90vw;
+    }
+
+    .bloco03 .subtitulo {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .box-list {
+        position: absolute;
+        display: flex;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* ---------- fim bloco 03 ---------- */
+
+    /* ---------- bloco 04 ---------- */
+
+    .container-bloco04 {
+        height: 1145px;
+    }
+
+    .bloco04 {
+        position: relative;
+        height: 1145px;
+        width: 1278px;
+    }
+
+    .bloco04 .subtitulo {
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        top: 15px;
+    }
+
+    .bloco04 h2 {
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .bloco04 p {
+        position: absolute;
+        top: 350px;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        width: 525px;
+    }
+
+    .bloco04 img {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 100px;
+    }
+
+    /* ---------- fim bloco 04 ---------- */
+
+    /* ---------- bloco 06 ---------- */
+
+    .container-bloco06 {
+        width: 100%;
+        height: 1500px;
+        background: #F5F5F5;
+    }
+    
+    .bloco06 {
+        position: relative;
+        top: 40px;
+        height: 1200px;
+        width: 1278px;
+        max-width: 90vw;
+    }
+    
+    .container-bloco06 .texto-esquerda {
+        position: absolute;
+        text-align: center;
+        left:50%;
+        transform: translate(-50%);
+        top: 90px;
+    }
+    
+    .container-bloco06 .texto-direita {
+        position: absolute;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%);
+        top: 1050px;
+        max-width: 416px;
+        height: 320px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+    
+    .texto-direita .botao {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 0;
+    }
+    
+    .container-bloco06 .subtitulo {
+        padding-bottom: 17px;
+        left: 0;
+        top: 15px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        background: linear-gradient(80.36deg, #3DAE2B -2.35%, #65B2E8 96.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    .container-bloco06 h2 {
+        padding-bottom: 24px;
+        font-weight: 700;
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+    }
+    
+    .texto-esquerda p {
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .imagem-bloco06 {
+        background-image: url(imagens/imagem05.png);
+        height: 1450px;
+    }
+
+    /* ---------- fim bloco 06 ---------- */
+
+}
+
+
+@media screen and (max-width: 820px) {
+
+    /* ---------- bloco 03 ---------- */
+
+    .container-bloco03 {
+        position: relative;
+        width: 100%;
+        height: 1226px;
+        background: #F5F5F5;
+    }
+
+    .bloco03 {
+        position: relative;
+        height: 726px;
+        width: 1380px;
+        max-width: 90vw;
+        margin: 0 auto; 
+    }
+
+    .bloco03 img {
+        position:absolute;
+        bottom: -500px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .bloco03 h2 {
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        max-width: 90vw;
+    }
+
+    .bloco03 .subtitulo {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .box {
+        height: 300px;
+        width: 250px;
+    }
+
+    .texto-box {
+        width: 250px;
+    }
+
+    .box-list {
+        position: absolute;
+        display: flex;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* ---------- fim bloco 03 ---------- */
+}
+
+
+@media screen and (max-width: 455px) {
+    
+    /* ---------- cabecalho ---------- */
+    
+    .cabecalho p {
+        display: none;
+    }
+
+    /* ---------- fim cabecalho ---------- */
+
+    /* ---------- bloco 01 ---------- */
+
+    .container-bloco01 {
+        width: 100%;
+        height: 745px;
+    }
+
+    .bloco01 img {
+        bottom: 180px;
+        width: 100%;
+    }
+    
+    .bloco01 .texto-imagem {
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%);
+        top: 400px;
+    }
+
+    .bloco01-texto {
+        width: 100%;
+        position: absolute;
+    }
+
+    .bloco01-texto h1 {
+        font-size: 3rem;
+    }
+
+    .bloco01-texto p {
+        font-size: 1rem;
+    }
+
+    /* ---------- fim bloco 01 ---------- */
+
+    /* ---------- bloco 02 ---------- */
+
+    .container-bloco02 {
+        width: 100%;
+        height: 550px;
+        background: #F5F5F5;
+    }
+
+    .bloco02 {
+        height: 860px;
+    }
+
+    .bloco02 img {
+        width: 100%;
+        top: 345px;
+    }
+
+    .bloco02 h2 {
+        font-size: 2rem;
+        top: 70px;
+    }
+
+    .bloco02 p {
+        font-size: 0.8rem;
+        top: 220px;
+    }
+
+    /* ---------- fim bloco 02 ---------- */
+    
+    /* ---------- bloco 03 ---------- */
+
+    .container-bloco03 {
+        position: relative;
+        width: 100%;
+        height: 1550px;
+    }
+    
+    .bloco03 img {
+        bottom: -823px;
+        width: 100%;
+    }
+    
+    .bloco03 h2 {
+        font-size: 2rem;
+    }
+    
+    .bloco03 .subtitulo {
+        text-align: center;
+        top: 350px;
+        width: 100%;
+    }
+    
+    .box {
+        height: 250px;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .texto-box {
+        width: 100%;
+    }
+    
+    .box-list {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 15px;
+        top: 450px;
+    }
+    
+    /* ---------- fim bloco 03 ---------- */
+    
+    /* ---------- bloco 04 ---------- */
+    
+    .container-bloco04 {
+        height: 950px;
+    }
+
+    .bloco04 {
+        margin: 48px auto 0;
+    }
+    
+    
+    .bloco04 .subtitulo {
+        height: 30px;
+    }
+
+    .bloco04 h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        width: 100%;
+        left: 50%;
+        top: 100px;
+    }
+
+    .bloco04 p {
+        top: 450px;
+        width: 100%;
+    }
+
+    .bloco04 img {
+        width: 100%;
+        bottom: 250px;
+    }
+
+    /* ---------- fim bloco 04 ---------- */
+
+    /* ---------- bloco 05 ---------- */
+
+    .container-bloco05 p {
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+    }
+
+
+    /* ---------- fim bloco 05 ---------- */
+
+    /* ---------- bloco 06 ---------- */
+
+    .container-bloco06 {
+        background-image: url(imagens/imagem05.png);
+        width: 100%;
+        height: 1400px;
+        background-repeat: no-repeat;
+        background-position-y: 500px ;
+        background-size: 100%;
+    }
+    
+    .container-bloco06 .texto-esquerda {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        left:50%;
+        transform: translate(-50%);
+        top: 5px;
+    }
+    
+    .container-bloco06 .texto-direita {
+        position: absolute;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%);
+        top: 1000px;
+        width: 100%;
+        height: 150px;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .texto-direita .botao {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: -100px;
+    }
+    
+    .container-bloco06 .subtitulo {
+        padding-bottom: 17px;
+        top: 15px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+    
+    .container-bloco06 h2 {
+        width: 100%;
+        padding-bottom: 24px;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.75rem;
+    }
+    
+    .texto-esquerda p {
+        font-weight: 500;
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .imagem-bloco06 {
+        background-image: none;
+        height: 1200px;
+    }
+
+    /* ---------- fim bloco 06 ---------- */
+
+}
+
+
+
+
+    
